@@ -43,7 +43,7 @@
 		public $notex;
 		public $notdir;
 		function __construct(){
-			$this->notex=array("php","js","tgz");//Suffix name files are not allowed to be displayed
+			$this->notex=array("php","js","tgz",".gitignore");//Suffix name files are not allowed to be displayed, a new .gitignore directory has been added.
 			$this->notdir=array("ag","phpmyadmin");//Folders that are not allowed to be displayed
 			if (isset($_GET['dir'])) {
 				foreach ($this->notdir as $key => $value) {
