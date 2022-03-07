@@ -43,8 +43,8 @@
 		public $notex;
 		public $notdir;
 		function __construct(){
-			$this->notex=array("php","js","tgz",".gitignore");//Suffix name files are not allowed to be displayed, a new .gitignore directory has been added.
-			$this->notdir=array("ag","phpmyadmin");//Folders that are not allowed to be displayed
+			$this->notex=array("php","js","tgz");//Suffix name files are not allowed to be displayed. 
+			$this->notdir=array("ag","phpmyadmin",".gitignore","CSS");//Folders that are not allowed to be displayed, A new .gitignore and CSS directory has been added.
 			if (isset($_GET['dir'])) {
 				foreach ($this->notdir as $key => $value) {
 					if(strtolower($_GET['dir'])==$value){
@@ -286,9 +286,9 @@ $x->open_dir();
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="renderer" content="Yander' Space">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
-	<script src="https://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
-	<script src="https://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<title>Yander' Space</title>
 	<style type="text/css">
 		body{
