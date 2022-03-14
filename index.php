@@ -1,7 +1,4 @@
 <?php 
-	/**
-	* 
-	*/
 	session_start();
 	define("PASS", "Ohyeah");//Set a password
 	class Aria2{
@@ -287,7 +284,6 @@ $x->open_dir();
 	<meta name="renderer" content="Yander' Space">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
 	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<title>Yander' Space</title>
 	<style type="text/css">
@@ -388,7 +384,7 @@ echo $x->pre();
 ?>
 		</table>
 			<div class="row">
-				<span class="col-md-2">Powered by <a href="https://yander.space">Yander</a></span>
+				<span class="col-md-2">Powered by <a href="https://yander.space">d</a></span>
 				<div class="col-md-6 ">
 					<div class="row">
 						<span class="col-md-2 text-right"><b>Disk Information:</b></span>
