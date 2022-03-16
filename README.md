@@ -8,16 +8,22 @@ Replace 3 broken CSS links.
 
 broken:
 
-https://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css
+~~https://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css~~
 
-https://cdn.bootcss.com/jquery/1.11.1/jquery.min.js
+~~https://cdn.bootcss.com/jquery/1.11.1/jquery.min.js~~
 
-https://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js
+~~https://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js~~
+
+~~https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css~~
+
+~~https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js~~
+
+~~https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js~~
 
 new:
 
 https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css
 
-https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js
+~~https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js~~
 
 https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js
