@@ -24,6 +24,6 @@ new:
 
 https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css
 
-~~https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js~~
+https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js
 
 https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js
